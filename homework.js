@@ -13,7 +13,7 @@ const generator = function*(i, j){
 
 for(const [i, j, k] of generator(9,9)){
 	console.log(`${i} x ${j} = ${k}`);
-}d
+}
 
 //1 x 1 = 1
 //1 x 2 = 2
